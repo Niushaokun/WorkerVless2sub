@@ -6,25 +6,74 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	//'cloudflare.cfgo.cc#优选官方线路',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'www.visa.com.sg#官方优选域名',
-	'www.wto.org:8080#官方优选域名',
-	'www.who.int:8880#官方优选域名',
+	//'www.visa.com.sg#官方优选域名',
+	//'www.wto.org:8080#官方优选域名',
+	//'www.who.int:8880#官方优选域名',
+	'time.cloudflare.com:80#NSK',
+'shopify.com:80#NSK',
+'time.is:80#NSK',
+'icook.hk:80#NSK',
+'icook.tw:80#NSK',
+'ip.sb:80#NSK',
+'japan.com:80#NSK',
+'malaysia.com:80#NSK',
+'russia.com:80#NSK',
+'singapore.com:80#NSK',
+'skk.moe:80#NSK',
+'www.visa.com:80#NSK',
+'www.visa.com.sg:80#NSK',
+'www.visa.com.hk:80#NSK',
+'www.visa.com.tw:80#NSK',
+'www.visa.co.jp:80#NSK',
+'www.visakorea.com:80#NSK',
+'www.gco.gov.qa:80#NSK',
+'www.gov.se:80#NSK',
+'www.gov.ua:80#NSK',
+'www.digitalocean.com:80#NSK',
+'www.csgo.com:80#NSK',
+'www.shopify.com:80#NSK',
+'www.whoer.net:80#NSK',
+'www.whatismyip.com:80#NSK',
+'www.ipget.net:80#NSK',
+'www.hugedomains.com:80#NSK',
+'www.udacity.com:80#NSK',
+'www.4chan.org:80#NSK',
+'www.okcupid.com:80#NSK',
+'www.glassdoor.com:80#NSK',
+'www.udemy.com:80#NSK',
+'www.baipiao.eu.org:80#NSK',
+'cdn.anycast.eu.org:80#NSK',
+'cdn-all.xn--b6gac.eu.org:80#NSK',
+'cdn-b100.xn--b6gac.eu.org:80#NSK',
+'xn--b6gac.eu.org:80#NSK',
+'edgetunnel.anycast.eu.org:80#NSK',
+'alejandracaiccedo.com:80#NSK',
+'nc.gocada.co:80#NSK',
+'log.bpminecraft.com:80#NSK',
+'www.boba88slot.com:80#NSK',
+'gur.gov.ua:80#NSK',
+'www.zsu.gov.ua:80#NSK',
+'www.iakeys.com:80#NSK',
+'edtunnel-dgp.pages.dev:80#NSK',
+'www.d-555.com:80#NSK',
+'fbi.gov:80#NSK',
+
 ];
 
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
-	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
 ];
 
 let DLS = 8;//速度下限
